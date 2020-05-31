@@ -37,6 +37,9 @@
 (ordered? '(1 2 3 4))
 (ordered? '(4 3 2 1))
 
+; Problem 5
+
+
 
 
 

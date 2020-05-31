@@ -1,0 +1,36 @@
+Errata to the first edition of _Simply Scheme_:
+
+p. 25: add to list of functions:
+	*, appearances, even?, if, item, number?, odd?, vowel?
+
+p. 79: The extra parens in the cond example aren't boldface.
+
+p. 93: Same procedure is sometimes first-two, sometimes sent-of-first-two.
+
+p. 128: Remove "as we did for the tic-tac-toe program."
+
+p. 139: "The second argument to EVERY must..." should be "The first argument."
+
+p. 188: We say we wrote REVERSE in Chapter 8, but we actually called it
+	BACKWARDS there.
+
+p. 278: It's spelled "Bjarne."
+
+p. 312: The fifth line in the definition of PARSE-HELPER should be
+		(handle-op '() operators operands)
+	rather than
+		(handle-op '() operands operators)
+
+p. 315: (in-tree? 'venezia (list-ref (children world-tree) 2))
+	Change 2 to 1.
+
+pp. 158-159: The illustrations are missing some parentheses.
+
+p. 231: "Nonillion" and "decillion" spelled wrong!
+
+p. 383: ex. 21.3 should talk about procedure functions-loop
+	instead of procedure functions.
+
+pp. 571, 577:  Replace the phrase "Appendix E, an alphabetical list
+of primitives with one-line descriptions of what they do" with
+"the Alphabetical Table of Scheme Primitives on page 557."
